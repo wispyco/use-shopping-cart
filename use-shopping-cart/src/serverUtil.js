@@ -1,4 +1,5 @@
 const validateCartItems = (inventorySrc, cartDetails) => {
+  console.log('in the server utils')
   const validatedItems = []
   for (const sku in cartDetails) {
     const product = cartDetails[sku]
